@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:orientation="vertical"
+    tools:context=".user_reg3">
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/logogroot"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="100dp"
+        android:text="What's your gender?"
+        android:textColor="@color/Green"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        >
+        <RadioButton
+            android:id="@+id/malerb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/Brown"
+            android:padding="10dp"
+            android:text="Male"
+            android:textColor="@color/Green"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/fmalerb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:buttonTint="@color/Brown"
+            android:padding="10dp"
+            android:text="Female"
+            android:textColor="@color/Green"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+        <RadioButton
+            android:id="@+id/customrb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Custom"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:buttonTint="@color/Brown"
+            android:textColor="@color/Green"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rg"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/Greenlite"
+        android:text="Use Mobile no" />
+    <Button
+        android:id="@+id/btnNext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnNext"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/Greenlite"
+        android:text="Use Email address" />
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sc1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    tools:context=".AboutUs"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/logroot"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv1"
+            android:layout_marginTop="30dp"
+            android:text="What is Groot?"
+            android:textColor="@color/Brown"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Groot mean Large. A Large network which cover all over the Pakistan and bring all the Customer,Consumer,Saler,Buyer at one platform. This is the type of service which is given to all local and brand vendors to sale their product online through a live stream. The customer which cannot go to Market and Bazaar etc. can buy product sitting at home or office or any particular place in resonable price. The product which cutomer buy will be deliver him in working days. The product which they buy from groot will be geniun and returnable(in the case of any wrong delivery or demaged product). The groot stemp will be paste on every product which a cutomer buy.  "
+            android:layout_below="@id/tv1"
+            android:textStyle="bold"
+            android:textColor="@color/Green"
+            />
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:text="Why Groot?"
+            android:textColor="@color/Brown"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv3"
+            android:text="Groot mean Large as we mention before it will cover all over the Pakistan at initial level after the reviews it will be implement on other countries and slowly slowly it cover all over the world. "
+            android:textColor="@color/Green"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv4"
+            android:text="Team"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:textColor="@color/Brown"
+            />
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv5"
+            android:textColor="@color/Green"
+            android:textStyle="bold"
+            android:text="1. Syed Adeel Haider (Student BS-IT at Superior University Lahore) Producer of Groot."
+            />
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv6"
+            android:text="2. Fakhar ul Hassan (Student BS-IT at Superior University Lahore) Assistant Producer of Groot."
+            android:textColor="@color/Green"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+</ScrollView>
